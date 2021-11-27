@@ -10,12 +10,43 @@ section {
   width: 400px;
   margin: 15px 20px 15px 20px; }
 
+.imagen6 {
+  animation-duration: 2s;
+  animation-name: hola;
+  animation-iteration-count: 1;
+  animation-fill-mode: foward;
+  animation-timing-function: ease-in-out; }
+
+@keyframes hola {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+.imagen6 {
+  transition: all 2s ease-in-out; }
+
+.imagen6:hover {
+  transform: rotateY(25deg); }
+
 blockquote p {
   font-family: 'Lato', sans-serif;
   font-size: 15px; }
 
 blockquote footer {
   font-size: 17px; }
+
+section p {
+  background-color: #dde4f0; }
+
+#titulo {
+  text-align: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration-style: dotted;
+  background-color: #a3cbf0; }
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
