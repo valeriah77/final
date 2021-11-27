@@ -1,3 +1,37 @@
+@import "variables/variablesnewpr";
+
+section{
+    margin: $separacion;
+    padding: $separacion;
+}
+
+.separa{
+    margin: $separacion;
+}
+
+.imagen6{
+    height: $tama2;
+    width: $tama2;
+    margin: $separacion;
+}
+
+blockquote{
+
+    p{
+        font-family: 'Lato', sans-serif;
+        font-size: 15px
+   }
+
+}
+blockquote{
+    footer{
+        font-size: 17px;
+    }
+}
+
+
+
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -12,7 +46,7 @@
 @import "mixins";
 @import "utilities";
 
-// Layout & components
+// Layout & component
 @import "root";
 @import "reboot";
 @import "type";
