@@ -1,0 +1,34 @@
+.imagen1{
+    width: 1400px;
+    height: 1300px;
+}
+
+.imagen2{
+    height: $tama2;
+    width: $tama2;
+ 
+}
+
+.imagen2{
+
+    animation-duration: 2s;
+    animation-name: hola;
+    animation-iteration-count:1;
+    animation-fill-mode: foward;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes hola{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+} 
+
+.imagen2{
+    transition: all 2s ease-in-out;
+}
+.imagen2:hover{
+    transform: rotateY(25deg);
+}
+

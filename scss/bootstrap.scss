@@ -1,64 +1,30 @@
-@import "variables/variablesnewpr";
+@import "../variables/variablesnewpr";
+@import "../variables/imagenes";
+@import "../variables/imagenes"
 
-section{
-    margin: $separacion;
-    padding: $separacion;
-}
+
 
 .separa{
-    margin: $separacion;
-}
-
-.imagen6{
-    height: $tama2;
-    width: $tama2;
-    margin: $separacion;
-}
-
-.imagen6{
-
-    animation-duration: 2s;
-    animation-name: hola;
-    animation-iteration-count:1;
-    animation-fill-mode: foward;
-    animation-timing-function: ease-in-out;
+    margin: $separacion1;
+    margin-top: $separa;
 
 }
 
-@keyframes hola{
-    0%{opacity: 0;}
-    50%{opacity: .5;}
-    100%{opacity: 1;}
-
-} 
-
-.imagen6{
-    transition: all 2s ease-in-out;
+.separa1{
+    margin-left: $separa1;
 }
-.imagen6:hover{
-    transform: rotateY(25deg);
-}
+
 
 
 blockquote{
-
     p{
         font-family: 'Lato', sans-serif;
         font-size: 15px
    }
-
 }
 blockquote{
     footer{
         font-size: 17px;
-    }
-}
-
-section{
-    
-    p{
-        background-color: #dde4f0;
-    
     }
 }
 
@@ -67,9 +33,12 @@ section{
     color:  white;
     font-family: 'Courier New', Courier, monospace;
     text-decoration-style: dotted;
-    background-color: $color1;
+    background-color: $color3;
+    margin-bottom: 0px;
 
 }
+
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
