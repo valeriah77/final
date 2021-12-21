@@ -1,0 +1,28 @@
+.formu{
+    padding: $separacion;
+}
+
+.formu1{
+    margin: $separa2;
+}
+
+h6{
+    text-align: center;
+    color:  white;
+    font-family: 'Oswald', sans-serif;
+    background-color: $color2;
+    font-size: 15px;
+    padding: $separacion;
+    letter-spacing: 5px;
+}
+
+div{
+    textarea{
+        margin-left: $separa2;
+    }  
+    }
+
+form{
+    background: rgb(113,155,198);
+    background: linear-gradient(63deg, rgba(113,155,198,0.4150035014005602) 1%, rgba(234,239,244,0.4150035014005602) 2%, rgba(232,238,244,1) 5%, rgba(229,237,244,1) 12%, rgba(226,235,244,1) 20%, rgba(221,233,243,1) 32%, rgba(216,231,243,1) 46%, rgba(210,228,242,1) 62%, rgba(78,114,140,1) 77%, rgba(195,222,241,1) 100%);
+}
